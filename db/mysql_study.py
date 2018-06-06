@@ -101,7 +101,6 @@ class MySQLUtil:
 
 if __name__ == '__main__':
     mysql = MySQLUtil()
-
     mysql.connect_db()
     mysql.create_table("students")
     mysql.insert("20180605", "futhead", 28)
@@ -110,5 +109,4 @@ if __name__ == '__main__':
     mysql.upsert()
     mysql.delete()
     mysql.query()
-
     mysql.close()
