@@ -64,9 +64,9 @@ ROBOTSTXT_OBEY = True
 
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'douban_top_250.pipelines.DoubanTop250Pipeline': 300,
-#}
+ITEM_PIPELINES = {
+   'douban_top_250.pipelines.DoubanTop250Pipeline': 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://doc.scrapy.org/en/latest/topics/autothrottle.html
@@ -90,5 +90,16 @@ HTTPCACHE_IGNORE_HTTP_CODES = []
 HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
 USER_AGENT = "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36"
-FEED_URI = "file:///E:/python/Python-study/crawler/douban_top_250/top250.csv"
-FEED_FORMAT = "CSV"
+# FEED_URI = "file:///E:/python/Python-study/crawler/douban_top_250/top250.csv"
+# FEED_FORMAT = "CSV"
+
+# FEED_EXPORT_ENCODING = "utf-8"
+# FEED_URI = "file:///E:/python/Python-study/crawler/douban_top_250/top250.json"
+# FEED_FORMAT = "JSON"
+# FEED_FORMAT = "jsonlines"
+
+MYSQL_HOSTS = "localhost"
+MYSWL_USER = "root"
+MYSQL_PASSWORD = "futhead"
+MYSQL_PORT = "3306"
+MYSQL_DB = "spiders"
