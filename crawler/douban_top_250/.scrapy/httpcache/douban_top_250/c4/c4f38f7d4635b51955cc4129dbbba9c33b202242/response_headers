@@ -1,0 +1,13 @@
+Cache-Control: must-revalidate, no-cache, private
+X-Dae-App: movie
+Server: dae
+Content-Type: text/html; charset=utf-8
+Pragma: no-cache
+Vary: Accept-Encoding
+Date: Sun, 10 Jun 2018 11:16:59 GMT
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+X-Douban-Mobileapp: 0
+Content-Encoding: gzip
+X-Dae-Node: brand20
+Expires: Sun, 1 Jan 2006 01:00:00 GMT
